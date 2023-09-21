@@ -1,0 +1,50 @@
+.backgroundScreen{
+    font-size: 1rem;
+    z-index: -1000;
+    position: fixed;
+
+    margin: 0px;
+    left: 0px;
+    top: 0px;
+
+    height: 100vh;
+    width: 100vw;
+
+    overflow: hidden;
+    pointer-events: none;
+
+    transition: none;
+}
+
+.waves{
+    --wave-height : calc(15vh);
+    --wave-width : calc(var(--wave-height) * 2);
+
+    background: url(Wave.svg) repeat-x;
+    width: calc(100vw + var(--wave-width));
+    height: var(--wave-height);
+
+    position: absolute;
+    margin: 0px;
+
+    bottom: -5vh;
+    left: 0px;
+
+    opacity: 10%;
+
+    overflow: hidden;
+    white-space: nowrap;
+
+    animation: 5s infinite linear wavesTranslateX;
+    transition: none;
+}
+
+.waves:nth-child(2) {
+    animation: 8s -4s infinite linear wavesTranslateX;
+    opacity: 5%;
+}
+
+@keyframes wavesTranslateX{
+    0% { left: 0px; }
+    100% { left: calc(var(--wave-width) * -1); }
+}

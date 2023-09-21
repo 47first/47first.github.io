@@ -1,0 +1,52 @@
+:root{
+    --default-margin : 0.5em;
+}
+
+@media (max-width: 800px) {
+    body{ --body-sides-margin : min(3vw, 50px); }
+}
+
+@media (min-width: 800px) {
+    body{ --body-sides-margin : min(15vw, 500px); }
+}
+
+*{
+    font-family: 'Inter', sans-serif;
+    color: var(--forecolor);
+    margin: var(--default-margin);
+}
+
+html{ margin: 0px; }
+
+body{
+    --forecolor : #090909;
+    --backcolor : #E4E4E4;
+
+    font-size: min(2.35vw, 16px);
+
+    margin: 4em var(--body-sides-margin);
+    overflow-x: hidden;
+
+    justify-items: center;
+    background: var(--backcolor);
+}
+
+body.dark{
+    --forecolor : #E4E4E4;
+    --backcolor : #262626;
+}
+
+.logo, .lightLogo{
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.dark .lightLogo{ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(155deg) brightness(106%) contrast(107%); }
+
+.hint { opacity: 70%; }
+
+.endpointDescription {
+    font-size: 1.1em;
+    font-weight: bold;
+    opacity: 70%;
+}

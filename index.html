@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="background.css" />
+    <link rel="stylesheet" type="text/css" href="buttons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="icon" href="empty.ico" type="image/x-icon"/>
+    <title>👋 Welcome</title>
+</head>
+
+<body>
+    <h1>Hi👋 This site made by me 👨‍💻</h1>
+    <h2>with ASP.NET Core, HTML, CSS, JS</h2>
+    <h3>if you need a 👍 C# dev BETTER CALL ME 📞</h3>
+
+    <a class="buttonLink" href="https://t.me/erlich_bachmanity" target="_blank">
+        <img class="logo" src="Telegram_2019_Logo.svg"></img>
+    </a>
+    <a class="buttonLink" href="https://github.com/47first" target="_blank">
+        <img class="lightLogo" src="github-mark.svg"></img>
+    </a>
+    <!-- <a class="buttonLink" href="https://github.com/47first" target="_blank">
+        <img class="gitHub logo" src="github-mark.svg"></img>
+        <p>Git repository of this site</p>
+    </a> -->
+
+    <h1>Endpoints:</h1>
+    <p class="hint">Hint: Everything in square brackets are parameters you can write yourself</p>
+    <a class="buttonLink vertical">
+        <h2>/StatusCode/[yourCode]</h2>
+        <br/>
+        <p class="endpointDescription">use it to receive [yourCode] status code</p>
+    </a>
+    <br/>
+    <div class="buttonLink vertical" disabled>
+        <h2>Comming soon...</h2>
+        <br/>
+        <p class="endpointDescription">just wait some time 👀</p>
+    </div>
+
+    <div class="backgroundScreen">
+        <div class="waves"></div>
+        <div class="waves"></div>
+    </div>
+</body>
+<script>
+    const isSystemThemeDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    var body = document.getElementsByTagName("body")[0];
+
+    setupLightTheme();
+
+    function setupLightTheme()
+    {
+        if (isSystemThemeDark &&
+            body.classList.contains("dark") == false)
+            body.classList.add("dark");
+
+        if (isSystemThemeDark == false &&
+            body.classList.contains("dark"))
+            body.classList.remove("dark");
+    }
+</script>
+</html>
