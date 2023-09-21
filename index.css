@@ -22,7 +22,7 @@ body{
     --forecolor : #090909;
     --backcolor : #E4E4E4;
 
-    font-size: min(2.35vw, 16px);
+    font-size: min(3vw, 16px);
 
     margin: 4em var(--body-sides-margin);
     overflow-x: hidden;
@@ -42,11 +42,3 @@ body.dark{
 }
 
 .dark .lightLogo{ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(155deg) brightness(106%) contrast(107%); }
-
-.hint { opacity: 70%; }
-
-.endpointDescription {
-    font-size: 1.1em;
-    font-weight: bold;
-    opacity: 70%;
-}

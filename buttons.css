@@ -1,6 +1,4 @@
-.buttonLink {
-    cursor: pointer;
-
+.box{
     display: inline-flex;
     align-items: center;
 
@@ -9,30 +7,64 @@
     border-radius: 0.5em;
 
     transition: all 0.1s ease-out;
+
+    text-decoration: none; 
 }
 
-.dark > .buttonLink { background: #2D2D2D; }
+.box.interactable{  cursor: pointer; }
 
-a.buttonLink { text-decoration: none; }
+.dark > .box { background: #2D2D2D; }
 
-.buttonLink[disabled] { opacity: 30%; }
+.box.interactable[disabled] { opacity: 30%; }
 
-.dark > .buttonLink:hover:not([disabled]) { background: #333333; }
+.dark > .box.interactable:hover:not([disabled]) {
+    background: #333333;
+    transform: translateY(-0.3em);
+}
 
-.buttonLink:hover:not([disabled]) { background: #CCCCCC; }
+.box.interactable:hover:not([disabled]) {
+    background: #CCCCCC;
+}
 
-.buttonLink[disabled]:hover { opacity: 100%; }
+.box.interactable[disabled]:hover { opacity: 100%; }
 
-.buttonLink * {
+.box * {
     display: inline-block;
     margin: 0px;
 }
 
-.buttonLink p:not(:first-child, .buttonLink.vertical p) { margin-left: 0.6em; }
+.box p:not(:first-child, .buttonLink.vertical p, .portfolio p) { margin-left: 0.6em; }
 
-.buttonLink.vertical {
+.box.vertical{
     display: inline-block;
     padding: 1em 1em;
 }
 
-.buttonLink.vertical *:not(:first-child) { margin-top: 0.5em; }
+.box.vertical *:not(:first-child) { margin-top: 0.5em; }
+
+.box.portfolio{
+    display: inline-block;
+
+    overflow: hidden;
+    padding: 0px;
+}
+
+.box.box.portfolio img, .box.box.portfolio video{
+    display: block;
+    
+    object-fit: cover;
+
+    height: 13em;
+    width: 20em;
+}
+
+.box.portfolio p{
+    display: block;
+
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 2em;
+    text-align: center;
+
+    margin: 0px;
+}

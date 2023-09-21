@@ -17,7 +17,7 @@
 }
 
 .waves{
-    --wave-height : calc(15vh);
+    --wave-height : calc(50vh);
     --wave-width : calc(var(--wave-height) * 2);
 
     background: url(Wave.svg) repeat-x;
