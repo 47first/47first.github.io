@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "47FirstGitHubPage.Blazor", "47FirstGitHubPage.Blazor.csproj", "{7496F60E-951F-40FC-8342-3CBD52987644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7496F60E-951F-40FC-8342-3CBD52987644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7496F60E-951F-40FC-8342-3CBD52987644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7496F60E-951F-40FC-8342-3CBD52987644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7496F60E-951F-40FC-8342-3CBD52987644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
