@@ -1,3 +1,7 @@
+*{
+    font-family: Hikasami;
+}
+
 body {
     margin: 0;
 }
@@ -44,7 +48,6 @@ body {
 
 /* Home page */
 .main-background {
-    background-size: cover;
     background: linear-gradient(180deg, #222831 0%, #171B21 100%) fixed;
 }
 
