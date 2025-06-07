@@ -8,8 +8,8 @@ public partial class FullscreenFixedBackground
     public RenderFragment? ChildContent { get; set; }
 
     [Parameter]
-    public required string AdditionalClasses { get; set; }
+    public required string CssClass { get; set; }
 
     [Parameter]
-    public required string StyleOverride { get; set; }
+    public required int ZIndex { get; set; }
 }

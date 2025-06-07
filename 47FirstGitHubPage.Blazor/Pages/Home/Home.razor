@@ -7,21 +7,29 @@
 <button style="position: fixed; z-index: 10" @onclick="ChangeLanguage_OnClick">Change language</button>
 
 <SectionContainer>
-    <FullscreenFixedBackground AdditionalClasses="main-background"/>
+    <FullscreenFixedBackground CssClass="main-background"/>
+    <FullscreenFixedBackground CssClass="noise-background"/>
 
     <h1 class="transition-all">@PageLocalizer["Hello world"]</h1>
     <h1 class="transition-all">@PageLocalizer["Hello world"].ResourceNotFound</h1>
 </SectionContainer>
 
 <SectionContainer>
-    <FullscreenFixedBackground AdditionalClasses="ballmen-background"/>
+    <FullscreenFixedBackground CssClass="ballmen-background"/>
 
     <h1 class="transition-all">@PageLocalizer["Hello world"]</h1>
     <h1 class="transition-all">@PageLocalizer["Hello world"].ResourceNotFound</h1>
+
+    <iframe
+        frameborder="0"
+        src="https://itch.io/embed/3371277?bg_color=000000&amp;fg_color=ffffff&amp;link_color=FF5555&amp;border_color=444444"
+        width="552" height="167">
+        <a href="https://47first.itch.io/ballmen-beta">Ballmen by 47first</a>
+    </iframe>
 </SectionContainer>
 
 <SectionContainer>
-    <FullscreenFixedBackground AdditionalClasses="main-background"/>
+    <FullscreenFixedBackground CssClass="main-background"/>
 
     <h1 class="transition-all">@PageLocalizer["Hello world"]</h1>
     <h1 class="transition-all">@PageLocalizer["Hello world"].ResourceNotFound</h1>
