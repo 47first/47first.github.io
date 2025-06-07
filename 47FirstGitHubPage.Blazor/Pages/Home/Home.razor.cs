@@ -1,11 +1,10 @@
-﻿using System;
-using _47FirstGitHubPage.Blazor.Consts;
+﻿using _47FirstGitHubPage.Blazor.Consts;
 using _47FirstGitHubPage.Blazor.Services.Abstractions;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;
 using R3;
 
-namespace _47FirstGitHubPage.Blazor.Pages;
+namespace _47FirstGitHubPage.Blazor.Pages.Home;
 
 public partial class Home : IDisposable
 {
@@ -16,7 +15,7 @@ public partial class Home : IDisposable
     public required ICultureProvider CultureProvider { get; set; }
 
     [Inject]
-    public required IStringLocalizer<HomeResources> PageLocalizer { get; set; }
+    public required IStringLocalizer<Localization> PageLocalizer { get; set; }
 
     protected override void OnInitialized()
     {
