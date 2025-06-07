@@ -1,4 +1,5 @@
-﻿using _47FirstGitHubPage.Blazor.Consts;
+﻿using System;
+using _47FirstGitHubPage.Blazor.Consts;
 using _47FirstGitHubPage.Blazor.Services.Abstractions;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;
