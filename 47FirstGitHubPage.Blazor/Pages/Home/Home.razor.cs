@@ -6,7 +6,7 @@ using R3;
 
 namespace _47FirstGitHubPage.Blazor.Pages.Home;
 
-public partial class Home : IDisposable
+public partial class Home : ComponentBase
 {
     private int _cultureIndexCounter;
     private IDisposable? _observers;

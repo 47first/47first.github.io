@@ -30,6 +30,8 @@ body {
     transition: all 0.25s;
 }
 
+/* Fullscreen fixed background component */
+
 .fullscreen-fixed-background{
     position: absolute;
     left: 0;
@@ -40,7 +42,8 @@ body {
     z-index: -1;
 }
 
-.main-background{
+/* Home page */
+.main-background {
     background-size: cover;
     background: linear-gradient(180deg, #222831 0%, #171B21 100%) fixed;
 }

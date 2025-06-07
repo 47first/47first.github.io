@@ -2,7 +2,7 @@
 
 namespace _47FirstGitHubPage.Blazor.Components;
 
-public partial class BackgroundSectionImage
+public partial class FullscreenFixedBackground
 {
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
