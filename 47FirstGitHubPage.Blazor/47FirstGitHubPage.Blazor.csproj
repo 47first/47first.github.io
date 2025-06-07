@@ -26,9 +26,11 @@
     <ItemGroup>
       <EmbeddedResource Update="Pages\Home\Localization.en.resx">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <DependentUpon>Localization.cs</DependentUpon>
       </EmbeddedResource>
       <EmbeddedResource Update="Pages\Home\Localization.ru.resx">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <DependentUpon>Localization.cs</DependentUpon>
       </EmbeddedResource>
     </ItemGroup>
 

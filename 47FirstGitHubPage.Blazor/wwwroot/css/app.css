@@ -2,29 +2,49 @@ body {
     margin: 0;
 }
 
-.unfocused-selection,
-.focused-section {
+.section {
     transition: background-color 0.25s;
+
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.unfocused-selection {
-    background-color: #f3f3f3
+.focused {
 }
 
-.focused-section {
-    background-color: #3f3f3f;
+.unfocused {
 }
 
-.focused-section .transition-all{
+.focused > .transition-all{
     opacity: 100%;
     transform: translateY(0em);
 }
 
-.unfocused-selection .transition-all{
+.unfocused > .transition-all{
     opacity: 0;
     transform: translateY(2em);
 }
 
 .transition-all{
     transition: all 0.25s;
+}
+
+.fullscreen-fixed-background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.main-background{
+    background-size: cover;
+    background: linear-gradient(180deg, #222831 0%, #171B21 100%) fixed;
+}
+
+.ballmen-background{
+    background: linear-gradient(180deg, #96B3DE 0%, #2256A3 100%) fixed;
 }
