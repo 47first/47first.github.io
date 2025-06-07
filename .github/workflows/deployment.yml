@@ -1,0 +1,41 @@
+name: Deploy to GitHub Pages
+
+# Запускаем магию только на пуши в main
+on:
+  push:
+    branches: main
+    
+jobs:
+  deploy-to-github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      # клонируем репозиторий на виртуальную машину
+    - uses: actions/checkout@v2
+    
+      # ставим нужный SDK (можно использовать и более старые)
+    - name: Setup .NET 9
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '9.0.x'
+        include-prerelease: true
+        
+      # генерируем статические файлы
+    - name: Publish .NET Core Project
+      run: dotnet publish 47FirstGitHubPage.Blazor/47FirstGitHubPage.Blazor.csproj -c release --nologo
+
+    # Use this when there will be other repositories
+    #- name: Change base-tag in index.html from / to the necessary
+    #  run: sed -i 's/<base href="\/" \/>/<base href="\/\/" \/>/g' ./SigmaBallssGitHubPage.Blazor/bin/release/net9.0/publish/wwwroot/index.html
+    
+    # копируем index.html в 404.html
+    - name: copy index.html content to 404.html
+      run: cp ./47FirstGitHubPage.Blazor/bin/release/net9.0/publish/wwwroot/index.html ./47FirstGitHubPage.Blazor/bin/release/net9.0/publish/wwwroot/404.html
+      
+    - name: Add .nojekyll file
+      run: touch ./47FirstGitHubPage.Blazor/bin/release/net9.0/publish/wwwroot/.nojekyll
+      
+    - uses: JamesIves/github-pages-deploy-action@4.1.4
+      name: gh-pages publish
+      with:
+        branch: gh-pages
+        folder: ./47FirstGitHubPage.Blazor/bin/release/net9.0/publish/wwwroot

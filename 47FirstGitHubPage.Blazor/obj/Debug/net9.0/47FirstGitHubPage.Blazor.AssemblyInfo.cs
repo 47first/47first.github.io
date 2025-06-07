@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("47FirstGitHubPage.Blazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f77e3f51b543eafc28b1bc5dda76a73595f7f3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5b36ed6d4ec74271b508053c983c872828ccfd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("47FirstGitHubPage.Blazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("47FirstGitHubPage.Blazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

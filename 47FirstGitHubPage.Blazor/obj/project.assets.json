@@ -315,6 +315,38 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Localization/9.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Localization.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Options": "9.0.5"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Localization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Localization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/9.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.5": {
         "type": "package",
         "dependencies": {
@@ -431,6 +463,35 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "R3/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/R3.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/R3.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "47FirstGitHubPage.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "9.0.5",
+          "Microsoft.AspNetCore.Components.WebAssembly": "9.0.5",
+          "Microsoft.JSInterop": "9.0.5",
+          "R3": "1.3.0"
+        },
+        "compile": {
+          "bin/placeholder/47FirstGitHubPage.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/47FirstGitHubPage.Common.dll": {}
         }
       }
     },
@@ -748,6 +809,38 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Localization/9.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Localization.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.5",
+          "Microsoft.Extensions.Options": "9.0.5"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Localization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Localization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/9.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.5": {
         "type": "package",
         "dependencies": {
@@ -864,6 +957,35 @@
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets": {}
+        }
+      },
+      "R3/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/R3.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/R3.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "47FirstGitHubPage.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "9.0.5",
+          "Microsoft.AspNetCore.Components.WebAssembly": "9.0.5",
+          "Microsoft.JSInterop": "9.0.5",
+          "R3": "1.3.0"
+        },
+        "compile": {
+          "bin/placeholder/47FirstGitHubPage.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/47FirstGitHubPage.Common.dll": {}
         }
       }
     }
@@ -1450,6 +1572,44 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Localization/9.0.5": {
+      "sha512": "iqno5dLEXwpviGkm8Dl+ldqjAKAQf3zAx6AfPDnic3uUUTDeYtQ8Jqs4PiVFkuO1M7TOOAOXFa6dxoj56MDo6g==",
+      "type": "package",
+      "path": "microsoft.extensions.localization/9.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Localization.dll",
+        "lib/net462/Microsoft.Extensions.Localization.xml",
+        "lib/net9.0/Microsoft.Extensions.Localization.dll",
+        "lib/net9.0/Microsoft.Extensions.Localization.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.xml",
+        "microsoft.extensions.localization.9.0.5.nupkg.sha512",
+        "microsoft.extensions.localization.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Localization.Abstractions/9.0.5": {
+      "sha512": "zCS+W4FyyzAyUbE72ltvaukBLBm5t83MFHWKRmijLphAAjC8XGT/mVsGQTHTHHFPkrksI2tplDuIAoYQc9GT9A==",
+      "type": "package",
+      "path": "microsoft.extensions.localization.abstractions/9.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Localization.Abstractions.xml",
+        "microsoft.extensions.localization.abstractions.9.0.5.nupkg.sha512",
+        "microsoft.extensions.localization.abstractions.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Logging/9.0.5": {
       "sha512": "rQU61lrgvpE/UgcAd4E56HPxUIkX/VUQCxWmwDTLLVeuwRDYTL0q/FLGfAW17cGTKyCh7ywYAEnY3sTEvURsfg==",
       "type": "package",
@@ -1746,12 +1906,40 @@
         "tools/net9.0/Microsoft.NET.Sdk.WebAssembly.Pack.Tasks.dll",
         "tools/net9.0/Microsoft.NET.WebAssembly.Webcil.dll"
       ]
+    },
+    "R3/1.3.0": {
+      "sha512": "c4bL37HGimYon/qfRTZOJE41M3cgdMJn/p4O5Jq+WHTJGNXUb1x2DlVI+iZk5phCBwq3ERfrgbaPu9WdG2OS+w==",
+      "type": "package",
+      "path": "r3/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/R3.dll",
+        "lib/net6.0/R3.xml",
+        "lib/net8.0/R3.dll",
+        "lib/net8.0/R3.xml",
+        "lib/netstandard2.0/R3.dll",
+        "lib/netstandard2.0/R3.xml",
+        "lib/netstandard2.1/R3.dll",
+        "lib/netstandard2.1/R3.xml",
+        "r3.1.3.0.nupkg.sha512",
+        "r3.nuspec"
+      ]
+    },
+    "47FirstGitHubPage.Common/1.0.0": {
+      "type": "project",
+      "path": "../47FirstGitHubPage.Common/47FirstGitHubPage.Common.csproj",
+      "msbuildProject": "../47FirstGitHubPage.Common/47FirstGitHubPage.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "47FirstGitHubPage.Common >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.5",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.5",
+      "Microsoft.Extensions.Localization >= 9.0.5",
+      "Microsoft.Extensions.Localization.Abstractions >= 9.0.5",
       "Microsoft.NET.ILLink.Tasks >= 9.0.5",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.5"
     ]
@@ -1762,11 +1950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Visual Studio Projects\\47first.github.io\\47FirstGitHubPage\\47FirstGitHubPage.Blazor\\47FirstGitHubPage.Blazor.csproj",
+      "projectUniqueName": "C:\\Visual Studio Projects\\47first.github.io\\47FirstGitHubPage.Blazor\\47FirstGitHubPage.Blazor.csproj",
       "projectName": "47FirstGitHubPage.Blazor",
-      "projectPath": "C:\\Visual Studio Projects\\47first.github.io\\47FirstGitHubPage\\47FirstGitHubPage.Blazor\\47FirstGitHubPage.Blazor.csproj",
+      "projectPath": "C:\\Visual Studio Projects\\47first.github.io\\47FirstGitHubPage.Blazor\\47FirstGitHubPage.Blazor.csproj",
       "packagesPath": "C:\\Users\\God\\.nuget\\packages\\",
-      "outputPath": "C:\\Visual Studio Projects\\47first.github.io\\47FirstGitHubPage\\47FirstGitHubPage.Blazor\\obj\\",
+      "outputPath": "C:\\Visual Studio Projects\\47first.github.io\\47FirstGitHubPage.Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\God\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1783,7 +1971,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Visual Studio Projects\\47first.github.io\\47FirstGitHubPage.Common\\47FirstGitHubPage.Common.csproj": {
+              "projectPath": "C:\\Visual Studio Projects\\47first.github.io\\47FirstGitHubPage.Common\\47FirstGitHubPage.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1807,6 +1999,14 @@
           },
           "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[9.0.5, )"
+          },
+          "Microsoft.Extensions.Localization": {
+            "target": "Package",
+            "version": "[9.0.5, )"
+          },
+          "Microsoft.Extensions.Localization.Abstractions": {
             "target": "Package",
             "version": "[9.0.5, )"
           },

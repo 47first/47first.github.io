@@ -1,0 +1,13 @@
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\bin\Debug\net9.0\47FirstGitHubPage.Common.deps.json
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\bin\Debug\net9.0\47FirstGitHubPage.Common.dll
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\bin\Debug\net9.0\47FirstGitHubPage.Common.pdb
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\47FirstGitHubPage.Common.csproj.AssemblyReference.cache
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\47FirstGitHubPage.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\47FirstGitHubPage.Common.AssemblyInfoInputs.cache
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\47FirstGitHubPage.Common.AssemblyInfo.cs
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\47FirstGitHubPage.Common.csproj.CoreCompileInputs.cache
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\47FirstGitHubPage.Common.sourcelink.json
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\47FirstGitHubPage.Common.dll
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\refint\47FirstGitHubPage.Common.dll
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\47FirstGitHubPage.Common.pdb
+C:\Visual Studio Projects\47first.github.io\47FirstGitHubPage.Common\obj\Debug\net9.0\ref\47FirstGitHubPage.Common.dll

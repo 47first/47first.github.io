@@ -1,7 +1,20 @@
 ﻿@page "/"
+@using System.Globalization
+@using _47FirstGitHubPage.Blazor.Components
 
-<PageTitle>Home</PageTitle>
+<PageTitle>@CultureInfo.CurrentUICulture</PageTitle>
 
-<h1>Hello, world!</h1>
+<button @onclick="ChangeLanguage_OnClick">Change language</button>
 
-Welcome to your new app.
+<SectionComponent>
+    <h1 class="transition-all">@PageLocalizer["Hello world"]</h1>
+    <h1 class="transition-all">@PageLocalizer["Hello world"].ResourceNotFound</h1>
+</SectionComponent>
+<SectionComponent>
+    <h1 class="transition-all">@PageLocalizer["Hello world"]</h1>
+    <h1 class="transition-all">@PageLocalizer["Hello world"].ResourceNotFound</h1>
+</SectionComponent>
+<SectionComponent>
+    <h1 class="transition-all">@PageLocalizer["Hello world"]</h1>
+    <h1 class="transition-all">@PageLocalizer["Hello world"].ResourceNotFound</h1>
+</SectionComponent>
