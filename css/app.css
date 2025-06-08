@@ -47,9 +47,26 @@ body {
 }
 
 /* Home page */
+
+/* - Main section */
+
 .main-background {
     background: linear-gradient(180deg, #222831 0%, #171B21 100%) fixed;
 }
+
+.noise-background {
+    background: url("../images/noise.png") repeat;
+    opacity: 5%;
+}
+
+.logo-background {
+    background: url("../images/47logo.png") fixed no-repeat right 2em bottom 2em;
+    background-size: 40%;
+    opacity: 0.05;
+    filter: blur(9.5px);
+}
+
+/* - Ballmen section */
 
 .ballmen-background{
     background: linear-gradient(180deg, #96B3DE 0%, #2256A3 100%) fixed;
