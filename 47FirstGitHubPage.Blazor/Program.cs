@@ -6,7 +6,6 @@ using _47FirstGitHubPage.Common.Helpers;
 using _47FirstGitHubPage.Common.JsRuntime.Extensions;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
