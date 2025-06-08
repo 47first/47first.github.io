@@ -1,10 +1,10 @@
 {
   "mainAssemblyName": "47FirstGitHubPage.Blazor",
   "resources": {
-    "hash": "sha256-emUUKoA6P0NfJPHnNBuTXwrx08zyYrkawXeHXT7YLAA=",
+    "hash": "sha256-J3UH82SH4VSuuEXBAlIaj47vCdYT2fEtLMhi1nPQ3to=",
     "fingerprinting": {
-      "47FirstGitHubPage.Blazor.dzttlpk253.wasm": "47FirstGitHubPage.Blazor.wasm",
-      "47FirstGitHubPage.Common.8lbmq07nv9.wasm": "47FirstGitHubPage.Common.wasm",
+      "47FirstGitHubPage.Blazor.zzonxszli1.wasm": "47FirstGitHubPage.Blazor.wasm",
+      "47FirstGitHubPage.Common.vzl3521a95.wasm": "47FirstGitHubPage.Common.wasm",
       "Microsoft.AspNetCore.Components.n1llbndtf8.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.jds8s57ddm.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
       "Microsoft.AspNetCore.Components.WebAssembly.y9x19zj3p5.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
@@ -47,8 +47,8 @@
       "System.Threading.Thread.8pli5yaz69.wasm": "System.Threading.Thread.wasm",
       "System.Threading.ThreadPool.3ah1tzz2zs.wasm": "System.Threading.ThreadPool.wasm",
       "System.Threading.8mfa8teweo.wasm": "System.Threading.wasm",
-      "47FirstGitHubPage.Blazor.resources.dy99iesc57.wasm": "47FirstGitHubPage.Blazor.resources.wasm",
-      "47FirstGitHubPage.Blazor.resources.usxk42sgjg.wasm": "47FirstGitHubPage.Blazor.resources.wasm",
+      "47FirstGitHubPage.Blazor.resources.hc9eppyc0i.wasm": "47FirstGitHubPage.Blazor.resources.wasm",
+      "47FirstGitHubPage.Blazor.resources.tvrd9zp1fz.wasm": "47FirstGitHubPage.Blazor.resources.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.uhsveqo9bs.js": "dotnet.native.js",
       "dotnet.native.swgexbmoy7.wasm": "dotnet.native.wasm",
@@ -76,8 +76,8 @@
       "System.Runtime.InteropServices.JavaScript.83zwdhfd7p.wasm": "sha256-pLr/Ys4hCRUIbnJOTabUttdOQTgaKzJPRmT6/do1uGg="
     },
     "assembly": {
-      "47FirstGitHubPage.Blazor.dzttlpk253.wasm": "sha256-CTbEITfF0a1l0TcT1NMHH9aFJRrciFf3a0NbBPZN3GU=",
-      "47FirstGitHubPage.Common.8lbmq07nv9.wasm": "sha256-1JFRKnBj9rD7NSPSBE6zIlL1JuNTeKU9RhdfGk7lB6w=",
+      "47FirstGitHubPage.Blazor.zzonxszli1.wasm": "sha256-sQAHjf77rhuQkVlSC3yXes2F3DSg6DoF8qS4EcHI1lM=",
+      "47FirstGitHubPage.Common.vzl3521a95.wasm": "sha256-5XCN+f0xdKzpwaeTAWNQsnz/o00MmDIdJxezN33IaQ0=",
       "Microsoft.AspNetCore.Components.n1llbndtf8.wasm": "sha256-NethL5B/Fm+0NvPvVkKKC4wULCJfc+DmLL8hX7LkXXo=",
       "Microsoft.AspNetCore.Components.Web.jds8s57ddm.wasm": "sha256-p8FwKMd7p3dg0c8PCdm5IJJt93tFhqZn//nWhJLL4ZA=",
       "Microsoft.AspNetCore.Components.WebAssembly.y9x19zj3p5.wasm": "sha256-Spx9XtP+X5WrdEjIHos1kPlGge+CxhkY2nCqr5+SmZ4=",
@@ -121,10 +121,10 @@
     },
     "satelliteResources": {
       "en": {
-        "47FirstGitHubPage.Blazor.resources.dy99iesc57.wasm": "sha256-W1vlDoGmEwbpteGWQzxY1JwK7CmPWLHgCNqQjVyead0="
+        "47FirstGitHubPage.Blazor.resources.hc9eppyc0i.wasm": "sha256-L/xHxgPv8PWQPIBhqCM+Ce1gV0D+11GQI3UKs9qqDwQ="
       },
       "ru": {
-        "47FirstGitHubPage.Blazor.resources.usxk42sgjg.wasm": "sha256-HnTHm+ixJvFCS7B7/RTZyGuYL86MWVspSSNGenwrqBI="
+        "47FirstGitHubPage.Blazor.resources.tvrd9zp1fz.wasm": "sha256-abPm651JJXIGVeat0NTqzybUOkfAYYSjEofilaTtKa8="
       }
     }
   },
