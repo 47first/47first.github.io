@@ -78,15 +78,25 @@ button:hover {
 
 /* Home page */
 
+.noise-background {
+    background: url("../images/noise.png") repeat;
+    opacity: 5%;
+}
+
+.noise2-background {
+    background: url("../images/noise2.png") repeat;
+    opacity: 10%;
+}
+
+.blur-background {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vh);
+}
+
 /* - Main section */
 
 .main-background {
     background: linear-gradient(180deg, #222831 0%, #171B21 100%) fixed;
-}
-
-.noise-background {
-    background: url("../images/noise.png") repeat;
-    opacity: 5%;
 }
 
 .logo-background {
@@ -98,11 +108,19 @@ button:hover {
 
 /* - Ballmen section */
 
+.ballman-character-background {
+    background: url("../images/ballman.png") fixed no-repeat right;
+    background-size: 60vh;
+    background-position-y: 22.5vh;
+
+    transition: background-position 1.5s ease-out;
+}
+
 .ballmen-background {
-    background: url("../images/ballmenBackground.png") fixed repeat;
+    background: url("../images/ballmenBackground.png") fixed repeat center;
     background-size: cover;
 
-    transition: background-position 0.5s cubic-bezier(0,1,.75,1);
+    transition: background-position 0.5s ease-out;
 }
 
 .focused > .ballmen-background {
@@ -113,7 +131,10 @@ button:hover {
     background-position-y: 10vh;
 }
 
-.blur-background {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0.5vh);
+.focused > .ballman-character-background {
+    background-position-x: 60vw;
+}
+
+.unfocused > .ballman-character-background {
+    background-position-x: 125vw;
 }
