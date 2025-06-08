@@ -3,6 +3,10 @@
     --foreground-dark-color: #948979;
     --background-light-color: #393E46;
     --background-dark-color: #222831;
+
+    --telegram-backcolor: #28a7e8;
+    --itch-io-backcolor: #fa5c5c;
+    --github-backcolor: #1b1f23;
 }
 
 *{
@@ -231,6 +235,24 @@ button:hover {
 
 .link:hover {
     transform: translateY(-1em);
+}
+
+.link * {
+    height: 60%;
+    width: 60%;
+    margin: 20%;
+}
+
+.link.telegram {
+    background-color: var(--telegram-backcolor);
+}
+
+.link.itch-io {
+    background-color: var(--itch-io-backcolor);
+}
+
+.link.github {
+    background-color: var(--github-backcolor);
 }
 
 .profile-avatar {
