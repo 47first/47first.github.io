@@ -138,6 +138,10 @@
 
 /* - Ballmen section */
 
+.ballmen-section {
+    font-family: Opsilon;
+}
+
 .ballman-character-background {
     background: url("../images/ballman.png") fixed no-repeat right;
     background-size: 60vh;

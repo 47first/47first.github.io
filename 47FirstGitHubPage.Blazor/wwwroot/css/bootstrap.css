@@ -19,6 +19,14 @@
     margin-top: 5em;
 }
 
+.margin-1em {
+    margin: 1em;
+}
+
+.margin-5em {
+    margin: 5em;
+}
+
 .width-max-parent {
     width: max-content;
 }
@@ -34,6 +42,14 @@
 
 .no-margin-parent > * {
     margin: 0;
+}
+
+.border-radius-p75em{
+    border-radius: 0.75em;
+}
+
+.text-align-center{
+    text-align: center;
 }
 
 .foreground-light-color {
