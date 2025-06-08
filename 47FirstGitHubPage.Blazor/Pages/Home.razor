@@ -4,12 +4,23 @@
 
 <PageTitle>@CultureInfo.CurrentUICulture</PageTitle>
 
-<SectionContainer>
+<LocaleButton CultureChanged="StateHasChanged"/>
+
+<SectionContainer CssClass="main-section">
     <FullscreenFixedBackground ZIndex="-3" CssClass="main-background"/>
     <FullscreenFixedBackground ZIndex="-2" CssClass="logo-background"/>
     <FullscreenFixedBackground ZIndex="-1" CssClass="noise-background"/>
 
-    <LocaleButton CultureChanged="StateHasChanged"/>
+    <div class="profile-container">
+        <div class="flex-row gap-1em width-max-parent">
+            <div class="profile-avatar"></div>
+            <div class="flex-column gap-half-em no-margin-parent">
+                <p style="font-size: 1.3em" class="foreground-dark-color">@PageLocalizer["Personal"]</p>
+                <p style="font-size: 1.55em" class="foreground-light-color">@PageLocalizer["Anton Derevnin"]</p>
+                <p style="font-size: 1em" class="foreground-dark-color">47first</p>
+            </div>
+        </div>
+    </div>
 
     <div class="portfolio-footer">
         <div class="dash-lines"></div>

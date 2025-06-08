@@ -18,7 +18,10 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="Hello world" xml:space="preserve">
-        <value>Hello, мир! ENUS</value>
+    <data name="Personal" xml:space="preserve">
+        <value>Personal</value>
+    </data>
+    <data name="Anton Derevnin" xml:space="preserve">
+        <value>Anton Derevnin</value>
     </data>
 </root>

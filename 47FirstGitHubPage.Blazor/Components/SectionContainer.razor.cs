@@ -15,6 +15,9 @@ public partial class SectionContainer : ComponentBase, IDisposable
     [Parameter]
     public RenderFragment? ChildContent { get; set; }
 
+    [Parameter]
+    public required string CssClass { get; set; }
+
     private ElementReference ComponentReference { get; set; }
 
     private BoundingRect BoundingRect { get; set; }
