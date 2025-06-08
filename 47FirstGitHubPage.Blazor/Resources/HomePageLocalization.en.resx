@@ -36,4 +36,19 @@
     <data name="Links" xml:space="preserve">
         <value>Links</value>
     </data>
+    <data name="Common Skills" xml:space="preserve">
+        <value>Common Skills</value>
+    </data>
+    <data name="Unity Skills" xml:space="preserve">
+        <value>Unity Skills</value>
+    </data>
+    <data name="Web Skills" xml:space="preserve">
+        <value>Web Skills</value>
+    </data>
+    <data name="About Me" xml:space="preserve">
+        <value>About Me</value>
+    </data>
+    <data name="About Me Text" xml:space="preserve">
+        <value>About Me Text</value>
+    </data>
 </root>

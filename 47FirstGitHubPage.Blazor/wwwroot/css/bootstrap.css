@@ -1,0 +1,69 @@
+﻿.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gap-2em {
+    gap: 2em;
+}
+
+.gap-1em {
+    gap: 1em;
+}
+
+.gap-half-em {
+    gap: 0.5em;
+}
+
+.margin-top-5em {
+    margin-top: 5em;
+}
+
+.width-max-parent {
+    width: max-content;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.no-margin-parent > * {
+    margin: 0;
+}
+
+.foreground-light-color {
+    color: var(--foreground-light-color);
+}
+
+.foreground-dark-color {
+    color: var(--foreground-dark-color);
+}
+
+.background-light-color {
+    color: var(--foreground-light-color);
+}
+
+.background-dark-color {
+    color: var(--foreground-dark-color);
+}
+
+.foreground-light-backcolor {
+    background-color: var(--foreground-light-color);
+}
+
+.foreground-dark-backcolor {
+    background-color: var(--foreground-dark-color);
+}
+
+.background-light-backcolor {
+    background-color: var(--background-light-color);
+}
+
+.background-dark-backcolor {
+    background-color: var(--background-dark-color);
+}

@@ -1,0 +1,175 @@
+﻿/* - Main section */
+
+.main-background {
+    background: linear-gradient(180deg, #222831 0%, #171B21 100%) fixed;
+}
+
+.logo-background {
+    background: url("../images/47logo.png") fixed no-repeat right 2em bottom 6em;
+    background-size: 35%;
+    opacity: 0.05;
+    filter: blur(1vh);
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-parent {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+
+    width: min-content;
+
+    background-color: rgba(1,1,1,0.25);
+}
+
+.skill {
+    padding: 0.5em 1em;
+
+    border-radius: 0.75em;
+    border: none;
+
+    font-weight: bold;
+    font-size: 1em;
+
+    transition: background-color 0.1s, color 0.1s;
+
+    color: var(--foreground-light-color);
+    background-color: var(--background-light-color);
+}
+
+.links-parent {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+
+    position: absolute;
+    bottom: 50px;
+
+    width: max-content;
+}
+
+.link {
+    cursor: pointer;
+
+    border-radius: 50%;
+
+    height: 5em;
+    width: 5em;
+
+    background-color: white;
+
+    transition: transform 0.25s ease;
+}
+
+.link:hover {
+    transform: translateY(-1em);
+}
+
+.link * {
+    height: 60%;
+    width: 60%;
+    margin: 20%;
+}
+
+.link.telegram {
+    background-color: var(--telegram-backcolor);
+}
+
+.link.itch-io {
+    background-color: var(--itch-io-backcolor);
+}
+
+.link.github {
+    background-color: var(--github-backcolor);
+}
+
+.profile-avatar {
+    width: 10em;
+    height: 10em;
+
+    background: url("https://avatars.githubusercontent.com/u/108463574");
+    background-size: cover;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.portfolio-footer {
+    display: flex;
+
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+
+    height: 50px;
+    width: 100%;
+
+    background-color: var(--foreground-light-color);
+}
+
+.portfolio-footer .dash-lines {
+    background: url("../images/dashBackground.svg") center;
+    background-size: 2.5em;
+
+    margin: 0 1em;
+
+    height: 0.25em;
+    width: 100%;
+
+    align-self: center;
+}
+
+.portfolio-footer p {
+    font-size: 1.2em;
+    text-wrap-mode: nowrap;
+
+    align-self: center;
+}
+
+.content-parent {
+    width: calc(100% - 5em);
+    padding: 5em;
+    margin-bottom: 5em;
+}
+
+/* - Ballmen section */
+
+.ballman-character-background {
+    background: url("../images/ballman.png") fixed no-repeat right;
+    background-size: 60vh;
+    background-position-y: 22.5vh;
+
+    height: 120%;
+    width: 120%;
+
+    transition: background-position 1.5s ease, background-size 1s ease;
+}
+
+.ballmen-background {
+    background: url("../images/ballmenBackground.png") fixed repeat center;
+    background-size: cover;
+
+    transition: background-position 0.5s ease-out;
+}
+
+.focused > .ballmen-background {
+    background-position-y: 0;
+}
+
+.unfocused > .ballmen-background {
+    background-position-y: 10vh;
+}
+
+.focused > .ballman-character-background {
+    background-size: 60vh;
+    background-position-x: 60vw;
+}
+
+.unfocused > .ballman-character-background {
+    background-size: 80vh;
+    background-position-x: 125vw;
+}

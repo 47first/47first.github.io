@@ -36,4 +36,19 @@
     <data name="Links" xml:space="preserve">
         <value>Ссылки</value>
     </data>
+    <data name="Common Skills" xml:space="preserve">
+        <value>Общие навыки</value>
+    </data>
+    <data name="Unity Skills" xml:space="preserve">
+        <value>Unity навыки</value>
+    </data>
+    <data name="Web Skills" xml:space="preserve">
+        <value>Web навыки</value>
+    </data>
+    <data name="About Me" xml:space="preserve">
+        <value>Обо Мне</value>
+    </data>
+    <data name="About Me Text" xml:space="preserve">
+        <value>Текст обо мне</value>
+    </data>
 </root>

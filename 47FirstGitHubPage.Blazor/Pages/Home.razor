@@ -1,5 +1,4 @@
 ﻿@page "/"
-@using System.Globalization
 @using _47FirstGitHubPage.Blazor.Components
 
 <PageTitle>Home Page</PageTitle>
@@ -11,7 +10,7 @@
     <FullscreenFixedBackground ZIndex="-2" CssClass="logo-background"/>
     <FullscreenFixedBackground ZIndex="-1" CssClass="noise-background"/>
 
-    <div class="profile-container">
+    <div class="profile-parent">
         <div class="flex-row gap-1em width-max-parent">
             <div class="profile-avatar"></div>
             <div class="flex-column gap-half-em no-margin-parent">
@@ -27,21 +26,74 @@
             <div class="skill">@PageLocalizer["RussiaSkill"]</div>
             <div class="skill">@PageLocalizer["EnglishSkill"]</div>
         </div>
+
+        <div class="links-parent">
+            <p style="font-size: 1.3em" class="foreground-dark-color">@PageLocalizer["Links"]</p>
+
+            <div class="flex-row gap-2em no-margin-parent">
+                <a href="https://t.me/erlich_bachmanity" target="_blank" class="link telegram">
+                    <img style="transform: translateX(-0.25em)" src="./images/telegram.svg"/>
+                </a>
+                <a href="https://47first.itch.io/" target="_blank" class="link itch-io">
+                    <img src="./images/itch-io.svg"/>
+                </a>
+                <a href="https://github.com/47first" target="_blank" class="link github">
+                    <img src="./images/github.svg"/>
+                </a>
+            </div>
+        </div>
     </div>
 
-    <div class="links-container">
-        <p style="font-size: 1.3em" class="foreground-dark-color">@PageLocalizer["Links"]</p>
+    <div class="content-parent">
+        <h1 style="margin-top: 0;" class="foreground-light-color">@PageLocalizer["About Me"]</h1>
+        <h2 class="foreground-light-color">@PageLocalizer["About Me Text"]</h2>
 
-        <div class="flex-row gap-2em no-margin-parent">
-            <a href="https://t.me/erlich_bachmanity" target="_blank" class="link telegram">
-                <img style="transform: translateX(-0.25em)" src="./images/telegram.svg"/>
-            </a>
-            <a href="https://47first.itch.io/" target="_blank" class="link itch-io">
-                <img src="./images/itch-io.svg"/>
-            </a>
-            <a href="https://github.com/47first" target="_blank" class="link github">
-                <img src="./images/github.svg"/>
-            </a>
+        <div class="margin-top-5em"></div>
+
+        <h3 class="foreground-dark-color">@PageLocalizer["Common Skills"]</h3>
+        <div class="flex-row flex-wrap gap-half-em no-margin-parent">
+            <div class="skill">C#</div>
+            <div class="skill">C++</div>
+            <div class="skill">JS</div>
+            <div class="skill">Git Bash</div>
+            <div class="skill">.NET Memory Management</div>
+        </div>
+
+        <h3 class="foreground-dark-color">@PageLocalizer["Unity Skills"]</h3>
+        <div class="flex-row flex-wrap gap-half-em no-margin-parent">
+            <div class="skill">R3</div>
+            <div class="skill">ZLogger</div>
+            <div class="skill">Zenject</div>
+            <div class="skill">ZLINQ</div>
+            <div class="skill">DOTween</div>
+            <div class="skill">ECS</div>
+            <div class="skill">DOTS</div>
+            <div class="skill">LeoECS</div>
+            <div class="skill">Shader Graph</div>
+            <div class="skill">Netcode for GameObjects</div>
+            <div class="skill">UniTask</div>
+            <div class="skill">Input System</div>
+            <div class="skill">Unity Collections</div>
+            <div class="skill">HLSL</div>
+        </div>
+
+        <h3 class="foreground-dark-color">@PageLocalizer["Web Skills"]</h3>
+        <div class="flex-row flex-wrap gap-half-em no-margin-parent">
+            <div class="skill">Blazor</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">Dapper</div>
+            <div class="skill">Entity Framework</div>
+            <div class="skill">PostgreSQL</div>
+            <div class="skill">Redis</div>
+            <div class="skill">Kafka</div>
+            <div class="skill">MediatR</div>
+            <div class="skill">CQRS</div>
+            <div class="skill">Firebase Admin</div>
+            <div class="skill">gRPC</div>
+            <div class="skill">Docker</div>
+            <div class="skill">Docker-Compose</div>
+            <div class="skill">Serilog</div>
         </div>
     </div>
 

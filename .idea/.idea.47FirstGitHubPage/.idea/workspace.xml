@@ -9,12 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce84c12d-b0c7-43a5-8a16-b89904714f11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/images/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/images/itch-io.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/images/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/css/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.47FirstGitHubPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.47FirstGitHubPage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Components/SectionContainer.razor" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Components/SectionContainer.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/HomePageLocalization.en.resx" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/HomePageLocalization.en.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/HomePageLocalization.ru.resx" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/HomePageLocalization.ru.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,13 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +50,7 @@
     ".NET Launch Settings Profile.47FirstGitHubPage.Blazor: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749315646216</updated>
       <workItem from="1749315646895" duration="1014000" />
-      <workItem from="1749369856934" duration="22339000" />
+      <workItem from="1749369856934" duration="25468000" />
     </task>
     <servers />
   </component>
