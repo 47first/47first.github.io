@@ -24,4 +24,16 @@
     <data name="Anton Derevnin" xml:space="preserve">
         <value>Anton Derevnin</value>
     </data>
+    <data name="Languages" xml:space="preserve">
+        <value>Languages</value>
+    </data>
+    <data name="EnglishSkill" xml:space="preserve">
+        <value>English - B1</value>
+    </data>
+    <data name="RussiaSkill" xml:space="preserve">
+        <value>Russia - C2</value>
+    </data>
+    <data name="Links" xml:space="preserve">
+        <value>Links</value>
+    </data>
 </root>

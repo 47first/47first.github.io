@@ -24,4 +24,16 @@
     <data name="Personal" xml:space="preserve">
         <value>Личное</value>
     </data>
+    <data name="Languages" xml:space="preserve">
+        <value>Языки</value>
+    </data>
+    <data name="EnglishSkill" xml:space="preserve">
+        <value>Английский - B1</value>
+    </data>
+    <data name="RussiaSkill" xml:space="preserve">
+        <value>Русский - C2</value>
+    </data>
+    <data name="Links" xml:space="preserve">
+        <value>Ссылки</value>
+    </data>
 </root>

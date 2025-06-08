@@ -2,7 +2,7 @@
 @using System.Globalization
 @using _47FirstGitHubPage.Blazor.Components
 
-<PageTitle>@CultureInfo.CurrentUICulture</PageTitle>
+<PageTitle>Home Page</PageTitle>
 
 <LocaleButton CultureChanged="StateHasChanged"/>
 
@@ -19,6 +19,23 @@
                 <p style="font-size: 1.55em" class="foreground-light-color">@PageLocalizer["Anton Derevnin"]</p>
                 <p style="font-size: 1em" class="foreground-dark-color">47first</p>
             </div>
+        </div>
+
+        <p style="font-size: 1.3em; margin-top: 1em;" class="foreground-dark-color">@PageLocalizer["Languages"]</p>
+
+        <div class="flex-row gap-half-em no-margin-parent">
+            <div class="skill">@PageLocalizer["RussiaSkill"]</div>
+            <div class="skill">@PageLocalizer["EnglishSkill"]</div>
+        </div>
+    </div>
+
+    <div class="links-container">
+        <p style="font-size: 1.3em" class="foreground-dark-color">@PageLocalizer["Links"]</p>
+
+        <div class="flex-row gap-2em no-margin-parent">
+            <div class="link"></div>
+            <div class="link"></div>
+            <div class="link"></div>
         </div>
     </div>
 
