@@ -138,8 +138,9 @@
 
 /* - Ballmen section */
 
-.ballmen-section {
+.ballmen-section * {
     font-family: Opsilon;
+    font-weight: normal;
 }
 
 .ballman-character-background {

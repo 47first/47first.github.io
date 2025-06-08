@@ -9,7 +9,7 @@
     --github-backcolor: #1b1f23;
 }
 
-*{
+* {
     font-family: Hikasami;
 }
 
@@ -35,17 +35,17 @@ body {
 .unfocused {
 }
 
-.focused > .transition-all{
+.focused > .transition-all {
     opacity: 100%;
     transform: translateY(0em);
 }
 
-.unfocused > .transition-all{
+.unfocused > .transition-all {
     opacity: 0;
     transform: translateY(2em);
 }
 
-.transition-all{
+.transition-all {
     transition: all 0.25s;
 }
 
@@ -73,7 +73,7 @@ button:hover {
 
 /* Fullscreen fixed background component */
 
-.fullscreen-fixed-background{
+.fullscreen-fixed-background {
     position: absolute;
     left: 0;
     top: 0;

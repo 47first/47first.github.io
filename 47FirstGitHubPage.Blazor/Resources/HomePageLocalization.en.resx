@@ -51,4 +51,10 @@
     <data name="About Me Text" xml:space="preserve">
         <value>About Me Text</value>
     </data>
+    <data name="Portfolio below" xml:space="preserve">
+        <value>Portfolio below</value>
+    </data>
+    <data name="BallmenDescription" xml:space="preserve">
+        <value>Multiplayer 2D platformer</value>
+    </data>
 </root>
