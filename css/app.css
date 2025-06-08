@@ -9,6 +9,10 @@
     font-family: Hikasami;
 }
 
+html {
+    font-size: max(0.5vw, 1.5vh);
+}
+
 body {
     margin: 0;
 }
@@ -44,7 +48,7 @@ body {
 button {
     cursor: pointer;
 
-    padding: 0.75em 1em;
+    padding: 0.75em 1.25em;
 
     border-radius: 0.75em;
     border: none;
@@ -100,10 +104,41 @@ button:hover {
 }
 
 .logo-background {
-    background: url("../images/47logo.png") fixed no-repeat right 2em bottom 2em;
-    background-size: 40%;
+    background: url("../images/47logo.png") fixed no-repeat right 2em bottom 6em;
+    background-size: 35%;
     opacity: 0.05;
     filter: blur(1vh);
+}
+
+.portfolio-footer {
+    display: flex;
+
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+
+    height: 50px;
+    width: 100%;
+
+    background-color: var(--foreground-light-color);
+}
+
+.portfolio-footer .dash-lines {
+    background: url("../images/dashBackground.svg") center;
+
+    margin: 0 1em;
+
+    height: 0.25em;
+    width: 100%;
+
+    align-self: center;
+}
+
+.portfolio-footer p {
+    font-size: 1.2em;
+    text-wrap-mode: nowrap;
+
+    align-self: center;
 }
 
 /* - Ballmen section */
@@ -113,7 +148,7 @@ button:hover {
     background-size: 60vh;
     background-position-y: 22.5vh;
 
-    transition: background-position 1.5s ease-out;
+    transition: background-position 1.5s ease;
 }
 
 .ballmen-background {
