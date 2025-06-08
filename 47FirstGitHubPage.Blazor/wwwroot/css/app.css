@@ -1,3 +1,10 @@
+:root {
+    --foreground-light-color: #DFD0B8;
+    --foreground-dark-color: #948979;
+    --background-light-color: #393E46;
+    --background-dark-color: #222831;
+}
+
 *{
     font-family: Hikasami;
 }
@@ -34,6 +41,28 @@ body {
     transition: all 0.25s;
 }
 
+button {
+    cursor: pointer;
+
+    padding: 0.75em 1em;
+
+    border-radius: 0.75em;
+    border: none;
+
+    font-weight: bold;
+    font-size: 1em;
+
+    transition: background-color 0.1s, color 0.1s;
+
+    color: var(--background-light-color);
+    background-color: var(--foreground-light-color);
+}
+
+button:hover {
+    color: color-mix(in xyz, var(--background-light-color) 75%, #000000 100%);
+    background-color: color-mix(in xyz, var(--foreground-light-color) 75%, #000000 100%);
+}
+
 /* Fullscreen fixed background component */
 
 .fullscreen-fixed-background{
@@ -63,11 +92,26 @@ body {
     background: url("../images/47logo.png") fixed no-repeat right 2em bottom 2em;
     background-size: 40%;
     opacity: 0.05;
-    filter: blur(9.5px);
+    filter: blur(1vh);
 }
 
 /* - Ballmen section */
 
-.ballmen-background{
-    background: linear-gradient(180deg, #96B3DE 0%, #2256A3 100%) fixed;
+.ballmen-background {
+    background: url("../images/ballmenBackground.png") fixed repeat;
+    background-size: cover;
+
+    transition: background-position 1s ease-in-out;
+}
+
+.focused > .ballmen-background {
+    background-position-y: 0;
+}
+
+.unfocused > .ballmen-background {
+    background-position-y: 5vh;
+}
+
+.blur-background {
+    backdrop-filter: blur(1vh);
 }

@@ -9,10 +9,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce84c12d-b0c7-43a5-8a16-b89904714f11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/images/47logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Components/LocaleButton.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Components/LocaleButton.razor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home.razor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/ComponentsLocalization.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/ComponentsLocalization.en.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/ComponentsLocalization.ru.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/images/ballmenBackground.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.47FirstGitHubPage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.47FirstGitHubPage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/47FirstGitHubPage.Blazor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/47FirstGitHubPage.Blazor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Components/SectionContainer.razor" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Components/SectionContainer.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home/Home.razor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home/Home.razor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home/Localization.cs" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/HomePageLocalization.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home/Localization.en.resx" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/HomePageLocalization.en.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Pages/Home/Localization.ru.resx" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Resources/HomePageLocalization.ru.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Services/Impl/CultureProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/Services/Impl/CultureProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/47FirstGitHubPage.Blazor/wwwroot/css/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749315646216</updated>
       <workItem from="1749315646895" duration="1014000" />
-      <workItem from="1749369856934" duration="628000" />
+      <workItem from="1749369856934" duration="5450000" />
     </task>
     <servers />
   </component>

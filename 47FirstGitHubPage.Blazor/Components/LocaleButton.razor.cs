@@ -1,12 +1,14 @@
 ﻿using _47FirstGitHubPage.Blazor.Consts;
+using _47FirstGitHubPage.Blazor.Pages;
+using _47FirstGitHubPage.Blazor.Resources;
 using _47FirstGitHubPage.Blazor.Services.Abstractions;
 using Microsoft.AspNetCore.Components;
 using Microsoft.Extensions.Localization;
 using R3;
 
-namespace _47FirstGitHubPage.Blazor.Pages.Home;
+namespace _47FirstGitHubPage.Blazor.Components;
 
-public partial class Home : ComponentBase
+public partial class LocaleButton : ComponentBase, IDisposable
 {
     private int _cultureIndexCounter;
     private IDisposable? _observers;
@@ -15,12 +17,15 @@ public partial class Home : ComponentBase
     public required ICultureProvider CultureProvider { get; set; }
 
     [Inject]
-    public required IStringLocalizer<Localization> PageLocalizer { get; set; }
+    public required IStringLocalizer<ComponentsLocalization> Localizer { get; set; }
+
+    [Parameter]
+    public EventCallback CultureChanged { get; set; }
 
     protected override void OnInitialized()
     {
         _observers = CultureProvider.CurrentCulture
-            .Subscribe(_ => StateHasChanged());
+            .Subscribe(_ => CultureChanged.InvokeAsync());
     }
 
     public void Dispose()

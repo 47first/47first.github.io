@@ -1,0 +1,5 @@
+﻿@using System.Globalization
+<button style="position: absolute; right: 20px; top: 20px; z-index: 10;"
+        @onclick="ChangeLanguage_OnClick">
+    @Localizer["PageLocaleFormat", CultureInfo.CurrentUICulture.Name]
+</button>

@@ -24,13 +24,25 @@
     </ItemGroup>
 
     <ItemGroup>
-      <EmbeddedResource Update="Pages\Home\Localization.en.resx">
+      <EmbeddedResource Update="Resources\ComponentsLocalization.ru.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ComponentsLocalization.ru.Designer.cs</LastGenOutput>
+        <DependentUpon>ComponentsLocalization.cs</DependentUpon>
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        <DependentUpon>Localization.cs</DependentUpon>
       </EmbeddedResource>
-      <EmbeddedResource Update="Pages\Home\Localization.ru.resx">
+      <EmbeddedResource Update="Resources\HomePageLocalization.en.resx">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        <DependentUpon>Localization.cs</DependentUpon>
+        <DependentUpon>HomePageLocalization.cs</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\HomePageLocalization.ru.resx">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        <DependentUpon>HomePageLocalization.cs</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\ComponentsLocalization.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ComponentsLocalization.ru.Designer.cs</LastGenOutput>
+        <DependentUpon>ComponentsLocalization.cs</DependentUpon>
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </EmbeddedResource>
     </ItemGroup>
 

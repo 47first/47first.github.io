@@ -1,6 +1,4 @@
-﻿using System;
-using System.Globalization;
-using System.Linq;
+﻿using System.Globalization;
 using _47FirstGitHubPage.Blazor.Consts;
 using _47FirstGitHubPage.Blazor.Services.Abstractions;
 using R3;
@@ -22,6 +20,8 @@ public class CultureProvider : ICultureProvider
 
         CultureInfo.CurrentCulture = culture;
         CultureInfo.CurrentUICulture = culture;
+        CultureInfo.DefaultThreadCurrentCulture = culture;
+        CultureInfo.DefaultThreadCurrentUICulture = culture;
 
         _currentCultureProperty.Value = culture;
     }
