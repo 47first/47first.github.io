@@ -44,6 +44,16 @@
         <DependentUpon>ComponentsLocalization.cs</DependentUpon>
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </EmbeddedResource>
+      <EmbeddedResource Update="Resources\DateOnlyLocalization.ru.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>DateOnlyLocalization.ru.Designer.cs</LastGenOutput>
+        <DependentUpon>DateOnlyLocalization.cs</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\DateOnlyLocalization.en.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>DateOnlyLocalization.ru.Designer.cs</LastGenOutput>
+        <DependentUpon>DateOnlyLocalization.cs</DependentUpon>
+      </EmbeddedResource>
     </ItemGroup>
 
 </Project>

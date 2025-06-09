@@ -21,8 +21,8 @@
     <data name="Anton Derevnin" xml:space="preserve">
         <value>Антон Деревнин</value>
     </data>
-    <data name="Personal" xml:space="preserve">
-        <value>Личное</value>
+    <data name="Unity Developer" xml:space="preserve">
+        <value>Unity Разработчик</value>
     </data>
     <data name="Languages" xml:space="preserve">
         <value>Языки</value>
@@ -49,7 +49,7 @@
         <value>Обо Мне</value>
     </data>
     <data name="About Me Text" xml:space="preserve">
-        <value>Текст обо мне</value>
+        <value>Разработкой на Unity занимаюсь {1}, на C# - {0}. За это время успел поработать в команде на протяжении 1 года (Office Sleeper, &lt;a target="_blank" href="https://www.youtube.com/watch?v=KfFTYtgETJw&amp;feature=youtu.be&amp;ab_channel=YevhenKozlov"&gt;прогресс на февраль 2023&lt;/a&gt;), позже устроился в аутсорс компанию .NET разработчиком, где работаю по текущее время ({2}). В свободное от работы время занимаюсь разработкой своих игр в одиночку. Примеры моих работ расположены ниже в секции с портфолио.</value>
     </data>
     <data name="Portfolio below" xml:space="preserve">
         <value>Портфолио ниже</value>

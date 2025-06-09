@@ -1,7 +1,8 @@
 ﻿@page "/"
+@using System.Web
 @using _47FirstGitHubPage.Blazor.Components
 
-<PageTitle>Home Page</PageTitle>
+<PageTitle>Home</PageTitle>
 
 <LocaleButton CultureChanged="StateHasChanged"/>
 
@@ -14,7 +15,7 @@
         <div class="flex-row gap-1em width-max-parent">
             <div class="profile-avatar"></div>
             <div class="flex-column gap-half-em no-margin-parent">
-                <p style="font-size: 1.3em" class="foreground-dark-color">@PageLocalizer["Personal"]</p>
+                <p style="font-size: 1.3em" class="foreground-dark-color">@PageLocalizer["Unity Developer"]</p>
                 <p style="font-size: 1.55em" class="foreground-light-color">@PageLocalizer["Anton Derevnin"]</p>
                 <p style="font-size: 1em" class="foreground-dark-color">47first</p>
             </div>
@@ -46,7 +47,7 @@
 
     <div class="content-parent">
         <h1 style="margin-top: 0;" class="foreground-light-color">@PageLocalizer["About Me"]</h1>
-        <h2 class="foreground-light-color">@PageLocalizer["About Me Text"]</h2>
+        <h2 class="foreground-light-color">@AboutMeText</h2>
 
         <div class="margin-top-5em"></div>
 
@@ -118,7 +119,7 @@
 
         <iframe class="border-radius-p75em"
                 width="100%" height="315"
-                src="https://www.youtube.com/embed/zxlDSmTb5fI?si=NZh7BWDs6tqbpufZ"
+                src="https://www.youtube.com/embed/1HZLZcE3lDA?si=gwioyFvl0sLVBCmn"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

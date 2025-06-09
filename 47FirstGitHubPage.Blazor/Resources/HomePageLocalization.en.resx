@@ -18,8 +18,8 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
-    <data name="Personal" xml:space="preserve">
-        <value>Personal</value>
+    <data name="Unity Developer" xml:space="preserve">
+        <value>Unity Developer</value>
     </data>
     <data name="Anton Derevnin" xml:space="preserve">
         <value>Anton Derevnin</value>
@@ -49,7 +49,7 @@
         <value>About Me</value>
     </data>
     <data name="About Me Text" xml:space="preserve">
-        <value>About Me Text</value>
+        <value>I have been developing with Unity for {1} and with C# for {0}. During this time, I gained 1 year of experience working within a team (Office Sleeper, &lt;a target="_blank" href="https://www.youtube.com/watch?v=KfFTYtgETJw&amp;feature=youtu.be&amp;ab_channel=YevhenKozlov"&gt;progress as of February 2023&lt;/a&gt;). Later, I joined an outsourcing company as a .NET Developer, where I am currently working ({2}). In my free time, I develop my own games independently. Examples of my work are provided below in the portfolio section.</value>
     </data>
     <data name="Portfolio below" xml:space="preserve">
         <value>Portfolio below</value>
