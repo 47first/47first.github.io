@@ -1,5 +1,4 @@
 ﻿using System.Numerics;
-using System.Threading.Tasks;
 using _47FirstGitHubPage.Common.JsRuntime.Abstractions;
 using _47FirstGitHubPage.Common.JsRuntime.Structs;
 using Microsoft.AspNetCore.Components;
