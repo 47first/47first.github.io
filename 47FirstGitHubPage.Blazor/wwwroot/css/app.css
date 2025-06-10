@@ -4,9 +4,9 @@
     --background-light-color: #393E46;
     --background-dark-color: #222831;
 
-    --telegram-backcolor: #28a7e8;
-    --itch-io-backcolor: #fa5c5c;
-    --github-backcolor: #1b1f23;
+    --telegram-backcolor: var(--foreground-light-color);
+    --itch-io-backcolor: var(--foreground-light-color);
+    --github-backcolor: var(--foreground-light-color);
 }
 
 * {
