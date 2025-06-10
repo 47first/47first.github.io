@@ -191,6 +191,10 @@
 
 /* - Ballmen section */
 
+.ballmen-section {
+    font-size: 1.3em;
+}
+
 .ballmen-section * {
     font-family: Opsilon;
     font-weight: normal;
