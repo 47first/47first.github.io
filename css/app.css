@@ -14,7 +14,7 @@
 }
 
 html {
-    font-size: max(0.5vw, 1.5vh);
+    font-size: min(2vw, 1.5vh);
 }
 
 body {
@@ -71,32 +71,12 @@ button:hover {
     background-color: color-mix(in xyz, var(--foreground-light-color) 75%, #000000 100%);
 }
 
-/* Fullscreen fixed background component */
-
-.fullscreen-fixed-background {
-    position: absolute;
-    left: 0;
-    top: 0;
-
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    z-index: -1;
+a:link,
+a:hover,
+a:active {
+    color: var(--foreground-light-color);
 }
 
-/* Home page */
-
-.noise-background {
-    background: url("../images/noise.png") repeat;
-    opacity: 5%;
-}
-
-.noise2-background {
-    background: url("../images/noise2.png") repeat;
-    opacity: 10%;
-}
-
-.blur-background {
-    background-color: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(0.5vh);
+a:visited {
+    color: var(--foreground-dark-color);
 }

@@ -1,4 +1,62 @@
-﻿/* - Main section */
+﻿/* Fullscreen fixed background component */
+
+.fullscreen-fixed-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+/* Home page */
+
+.noise-background {
+    background: url("../images/noise.png") repeat;
+    opacity: 5%;
+}
+
+.noise2-background {
+    background: url("../images/noise2.png") repeat;
+    opacity: 10%;
+}
+
+.blur-background {
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0.5vh);
+}
+
+/* - Main section */
+
+@media (max-width: 1080px ){
+    .main-section {
+        flex-direction: column;
+    }
+
+    .profile-parent {
+        width: 100%;
+    }
+
+    .ballmen-content {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1080px ){
+    .main-section {
+        flex-direction: row;
+    }
+
+    .profile-parent {
+        width: min-content;
+    }
+
+    .ballmen-content {
+        width: 35%;
+    }
+}
 
 .main-background {
     background: linear-gradient(180deg, #222831 0%, #171B21 100%) fixed;
@@ -13,15 +71,12 @@
 
 .main-section {
     display: flex;
-    flex-direction: row;
 }
 
 .profile-parent {
     display: flex;
     flex-direction: column;
     padding: 5em;
-
-    width: min-content;
 
     background-color: rgba(1,1,1,0.25);
 }
@@ -45,9 +100,7 @@
     display: flex;
     flex-direction: column;
     padding: 2em 0;
-
-    position: absolute;
-    bottom: 50px;
+    margin-top: auto;
 
     width: max-content;
 }
@@ -131,7 +184,7 @@
 }
 
 .content-parent {
-    width: calc(100% - 5em);
+    width: calc(100% - 10em);
     padding: 5em;
     margin-bottom: 5em;
 }
@@ -145,7 +198,6 @@
 
 .ballman-character-background {
     background: url("../images/ballman.png") fixed no-repeat right;
-    background-size: 60vh;
     background-position-y: 22.5vh;
 
     height: 120%;
@@ -161,6 +213,15 @@
     transition: background-position 0.5s ease-out;
 }
 
+.ballmen-content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 5em auto;
+
+    gap: 1em;
+}
+
 .focused > .ballmen-background {
     background-position-y: 0;
 }
@@ -170,11 +231,11 @@
 }
 
 .focused > .ballman-character-background {
-    background-size: 60vh;
+    background-size: min(60vw, 60vh);
     background-position-x: 60vw;
 }
 
 .unfocused > .ballman-character-background {
-    background-size: 80vh;
+    background-size: min(80vw, 80vh);
     background-position-x: 125vw;
 }
