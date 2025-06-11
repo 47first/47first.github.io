@@ -21,6 +21,120 @@
         <Content Update="wwwroot\**">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </Content>
+        <Content Update="wwwroot\fonts\Geologica\demo.html">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Black.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Black.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-BlackItalic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-BlackItalic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Bold.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Bold.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-BoldItalic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-BoldItalic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ExtraBold.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ExtraBold.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ExtraBoldItalic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ExtraBoldItalic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ExtraLight.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ExtraLight.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ExtraLightItalic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ExtraLightItalic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Italic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Italic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Light.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Light.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-LightItalic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-LightItalic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Medium.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Medium.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-MediumItalic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-MediumItalic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Regular.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Regular.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-SemiBold.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-SemiBold.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-SemiBoldItalic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-SemiBoldItalic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Thin.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-Thin.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ThinItalic.woff">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\Geologica-ThinItalic.woff2">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <Content Update="wwwroot\fonts\Geologica\stylesheet.css">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
     </ItemGroup>
 
     <ItemGroup>
@@ -54,6 +168,15 @@
         <LastGenOutput>DateOnlyLocalization.ru.Designer.cs</LastGenOutput>
         <DependentUpon>DateOnlyLocalization.cs</DependentUpon>
       </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\Opsilon\demo.html" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\Opsilon\Opsilon-Italic.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\Opsilon\Opsilon-Italic.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\Opsilon\Opsilon-Regular.woff" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\Opsilon\Opsilon-Regular.woff2" />
+      <_ContentIncludedByDefault Remove="wwwroot\fonts\Opsilon\stylesheet.css" />
     </ItemGroup>
 
 </Project>
