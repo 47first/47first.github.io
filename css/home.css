@@ -39,7 +39,7 @@
         width: 100%;
     }
 
-    .ballmen-content {
+    .portfolio-content  {
         width: 80%;
     }
 }
@@ -53,7 +53,7 @@
         width: min-content;
     }
 
-    .ballmen-content {
+    .portfolio-content  {
         width: 35%;
     }
 }
@@ -189,6 +189,17 @@
     margin-bottom: 5em;
 }
 
+/* Portfolio common */
+
+.portfolio-content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 5em auto;
+
+    gap: 1em;
+}
+
 /* - Ballmen section */
 
 .ballmen-section {
@@ -217,15 +228,6 @@
     transition: background-position 0.5s ease-out;
 }
 
-.ballmen-content {
-    display: flex;
-    flex-direction: column;
-
-    margin: 5em auto;
-
-    gap: 1em;
-}
-
 .focused > .ballmen-background {
     background-position-y: 0;
 }
@@ -242,4 +244,61 @@
 .unfocused > .ballman-character-background {
     background-size: min(80vw, 80vh);
     background-position-x: 125vw;
+}
+
+/* Cut-Cut section*/
+
+.cut-cut-section {
+    font-size: 1.3em;
+}
+
+.cut-cut-section * {
+    font-family: Galiver Sans;
+    font-weight: normal;
+}
+
+.cut-cut-background {
+    background: url("../images/cutcutBackground.png") fixed repeat center;
+    background-size: cover;
+
+    transition: background-position 0.5s ease-out;
+}
+
+.focused > .cut-cut-background {
+    background-position-y: 0;
+}
+
+.unfocused > .cut-cut-background {
+    background-position-y: 10vh;
+}
+
+/* Air Smith section*/
+
+.air-smith-section {
+    font-size: 1.3em;
+}
+
+.air-smith-div {
+    background-color: #222222;
+    color: #eeeeee;
+}
+
+.air-smith-section * {
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.air-smith-background {
+    background: url("../images/airSmithBackground.png") fixed repeat center;
+    background-size: cover;
+
+    transition: background-position 0.5s ease-out;
+}
+
+.focused > .air-smith-background {
+    background-position-y: 0;
+}
+
+.unfocused > .air-smith-background {
+    background-position-y: 10vh;
 }
