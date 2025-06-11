@@ -57,4 +57,7 @@
     <data name="BallmenDescription" xml:space="preserve">
         <value>Ballmen is a multiplayer/single-player 2D fighting platformer. The main goal is to score more points for your team before the timer runs out. You can achieve this by kicking opponents into their own team's basket or eliminating all lives of the opposing team. The game supports PC and Android platforms</value>
     </data>
+    <data name="CutCutDescription" xml:space="preserve">
+        <value>CutCutDescription</value>
+    </data>
 </root>

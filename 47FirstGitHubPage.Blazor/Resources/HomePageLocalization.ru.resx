@@ -57,4 +57,7 @@
     <data name="BallmenDescription" xml:space="preserve">
         <value>Ballmen - это мультиплеерный/одиночный 2д файтинг-платформер. Главная цель игры - набрать больше очков для своей команды, до того как закончится таймер. Сделать это можно закинув вражеского игрока в корзину его команды или потратив все жизни участников вражеской команды. Игра имеет поддержку ПК и Andoid платформ.</value>
     </data>
+    <data name="CutCutDescription" xml:space="preserve">
+        <value>CutCutDescription</value>
+    </data>
 </root>
